@@ -1,6 +1,8 @@
-<View xmlns="sap.ui.core.mvc">
-  
-  <Page xmlns="sap.m">
-    <Button text="Save" xmlns="sap.m"/>  
-  </Page>
-</View>
+<v1:View xmlns:v1="sap.ui.core.mvc" xmlns="sap.m">
+   <Page>
+    <content>
+       <Button text="Save" width="50%" enabled="false"/>
+       <Label />
+    </content>   
+   </Page>
+</v1:View>
